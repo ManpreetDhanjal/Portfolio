@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Manpreet Dhanjal</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+  <link rel="stylesheet" href="./css/portfolioStyles.css">
+
+</head>
+
+<!--  data spy used to update nav bar according to the scroll position -->
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<!-- navbar inverse is just a color theme, navbar fixed at the top -->
+<nav class="navbar navbar-fixed-top nav-shade">
+<!--  container fluid to cover whole width of device -->
+  <div class="container">
+  	<div class="navbar-header">
+  		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span> 
+      	</button>
+    	<a class="navbar-brand" href="#" style="color:white">Manpreet Dhanjal</a>
+  	</div>
+  	<div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="#home" style="color:white">Home</a></li>
+        <li><a href="#aboutPage" style="color:white">About</a></li>
+        <li><a href="#skillPage" style="color:white">Skills</a></li> 
+        <li><a href="#workPage" style="color:white">Work</a></li> 
+        <li><a href="#connectPage" style="color:white">Connect</a></li>
+        <li><a href="#getInTouchPage" style="color:white">Get In Touch</a></li>
+        <li><a href="./resources/Manpreet_resume.pdf" style="color:white">Resume</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid" id="home">
+    <blockquote>You only lack experience if they want it done the same old way.
+    	<footer>Robert Brault</footer>
+    </blockquote>
+</div> 
+
+<!-- About me -->
+<div class="container-fluid row-shade" id="aboutPage">
+	<h1>About Me</h1>
+	<p>My name is Manpreet Dhanjal. I completed my Bachelors in Technology from NIT Hamirpur in 2014 
+	and have been working since then in Verizon Data Services, India. 
+	My interest in computer science started with embedded systems and slowly transformed into using machine learning with embedded systems.
+	In Verizon, I have been working as a full-stack developer. </p>
+</div>
+
+<!-- skills -->
+<div class="container-fluid" id="skillPage">
+	<h1>Skillset</h1>
+	<div class="row">
+	  	<div class="panel panel-default col-sm-4">
+	    	<div class="panel-heading" style="background-color:#bddbce;">Softwares</div>
+	    	<div class="panel-body">SonarQube, Fortify, JIRA, Jenkins, MATLAB</div>
+	  	</div>
+	  	<div class="panel panel-default col-sm-4">
+	  		<div class="panel-heading" style="background-color:#bddbce;">Languages</div>
+	  		<div class="panel-body">Java, J2EE, C, C++, HTML, CSS, Javascript, JQuery, Bootstrap, SQL, Embedded C</div>
+	  	</div>
+	  	<div class="panel panel-default col-sm-4" style="border:0px">
+	  		<div class="panel-heading" style="background-color:#bddbce;">Databases</div>
+	  		<div class="panel-body">Oracle, DB2</div>
+	  	</div>
+	  </div>
+</div>
+
+<!-- tells the experience -->
+<div class="container-fluid row-shade" id="workPage">
+	<h1 align="center">Projects & Work Experience</h1>
+	<ul class="nav nav-pills nav-justified">
+  		<li class="active" style="background-color:#1F7872"><a data-toggle="pill" href="#workExpTab">Work Experience</a></li>
+  		<li style="background-color:#1F7872"><a data-toggle="pill" href="#projectTab">Projects</a></li>
+	</ul>
+	<div class="tab-content">
+		<div id="workExpTab" class="tab-pane fade in active" style="padding-top:40px">
+			<p>Verizon Data Services, India: Analyst System Developer</p>
+			<p>Verizon Data Services, India: Software Developer</p>
+			<p>Indian Institute of Remote Sensing, ISRO, India: Intern</p>
+		</div>
+		
+		
+		<div id="projectTab" class="tab-pane fade" style="padding-top:40px">
+			<div class="row">
+			
+	  			<div class="panel panel-default col-sm-4" data-toggle="modal" data-target="cpiModal" style="border:0px">
+					<div class="panel-heading">Common Pricing Interface 
+						<a href="#cpiModal" data-toggle="modal" class="pull-right"><span class="glyphicon glyphicon-info-sign" style="color:white"></span></a></div>
+					<div class="panel-body">
+						<h5>Technologies:</h5>
+						<ul>
+							<li>HTML, CSS, Javascript</li>
+							<li>Java, J2EE, Struts1</li>
+							<li>DB2, Oracle, iBatis</li>
+						</ul>
+					</div>
+					<div id="cpiModal" class="modal fade" role="dialog">
+  						<div class="modal-dialog">
+    					<!-- Modal content-->
+						<div class="modal-content">
+						 	<div class="modal-header">
+						        <button type="button" class="close" data-dismiss="modal">&times;</button>
+						        <h4 class="modal-title">Common Pricing Interface </h4>
+						   	</div>
+						   	<div class="modal-body">
+						        <p>Common Pricing Interface is a portal which allows the Revenue Assurance team to create and modify plans and promotions for the Verizon customers. 
+								These are displayed in the product catalog.</p>
+								<h5>Technologies:</h5>
+								<ul>
+									<li>HTML, CSS, Javascript</li>
+									<li>Java, J2EE, Struts1</li>
+									<li>DB2, Oracle, iBatis</li>
+								</ul>	
+						   	</div>
+						</div>
+						</div>
+  					</div>
+				</div>
+				
+				<div class="panel panel-default col-sm-4">
+					<div class="panel-heading">DIY - Pricing Tool
+						<a href="#diyModal" data-toggle="modal" class="pull-right"><span class="glyphicon glyphicon-info-sign" style="color:white"></span></a>
+					</div>
+					<div class="panel-body">
+						<h5>Technologies:</h5>
+						<ul>
+							<li>HTML, CSS, Javascript, JQuery, Bootstrap</li>
+							<li>Java, J2EE, Spring</li>
+							<li>DB2</li>
+						</ul>
+					</div>
+					<div id="diyModal" class="modal fade" role="dialog">
+  						<div class="modal-dialog">
+    					<!-- Modal content-->
+						<div class="modal-content">
+						 	<div class="modal-header">
+						        <button type="button" class="close" data-dismiss="modal">&times;</button>
+						        <h4 class="modal-title">DIY - Pricing Tool</h4>
+						   	</div>
+						   	<div class="modal-body">
+						        <p>DIY Pricing Tool is an application which allows the Marketing Team to go through the existing Verizon Plans and Offers 
+								and also use intelligence and create custom products for the customers on the basis of input questionnaire. 
+								<h5>Technologies:</h5>
+								<ul>
+									<li>HTML, CSS, Javascript, JQuery, Bootstrap</li>
+									<li>Java, J2EE, Spring</li>
+									<li>DB2</li>
+								</ul>
+						   	</div>
+						</div>
+						</div>
+  					</div>
+				</div>
+				
+				<div class="panel panel-default col-sm-4">
+					<div class="panel-heading">Subtending System
+						<a href="#subSysModal" data-toggle="modal" class="pull-right"><span class="glyphicon glyphicon-info-sign" style="color:white"></span></a>
+					</div>
+					<div class="panel-body">
+						<h5>Technologies:</h5>
+						<ul>
+							<li>HTML, CSS, Javascript</li>
+							<li>Java, J2EE</li>
+							<li>DB2</li>
+						</ul>
+					</div>
+					<div id="subSysModal" class="modal fade" role="dialog">
+  						<div class="modal-dialog">
+    					<!-- Modal content-->
+						<div class="modal-content">
+						 	<div class="modal-header">
+						        <button type="button" class="close" data-dismiss="modal">&times;</button>
+						        <h4 class="modal-title">Subtending System</h4>
+						   	</div>
+						   	<div class="modal-body">
+						        <p>Subtending System is a part of Network Management System at Verizon. 
+								It continuously monitors the devices in FTTP and VOIP networks and Data centers under Verizon and generates alarms 
+								if any issue occurs and displays the information on a web portal for the technical team. </p>
+								<h5>Technologies:</h5>
+								<ul>
+									<li>HTML, CSS, Javascript</li>
+									<li>Java, J2EE</li>
+									<li>DB2</li>
+								</ul>
+						   	</div>
+						</div>
+						</div>
+  					</div>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="panel panel-default col-sm-4">
+					<div class="panel-heading">Face Detection
+						<a href="#facDetModal" data-toggle="modal" class="pull-right"><span class="glyphicon glyphicon-info-sign" style="color:white"></span></a>
+					</div>
+					<div class="panel-body">
+						<h5>Technologies:</h5>
+						<ul>
+							<li>Image Processing, Neural Networks</li>
+							<li>MATLAB</li>
+						</ul>
+					</div>
+					<div id="facDetModal" class="modal fade" role="dialog">
+  						<div class="modal-dialog">
+    					<!-- Modal content-->
+						<div class="modal-content">
+						 	<div class="modal-header">
+						        <button type="button" class="close" data-dismiss="modal">&times;</button>
+						        <h4 class="modal-title">Face Detection</h4>
+						   	</div>
+						   	<div class="modal-body">
+						       <p>Developed a software to detect faces in images using feature based approach.
+								The detection is performed by a cascade of neural networks which are trained using different
+								sets of positive and negative images</p>
+								<h5>Technologies:</h5>
+								<ul>
+									<li>Image Processing, Neural Networks</li>
+									<li>MATLAB</li>
+								</ul>
+						   	</div>
+						</div>
+						</div>
+  					</div>
+				</div>
+				
+				<div class="panel panel-default col-sm-4">
+					<div class="panel-heading">Hand Gesture Recognition
+						<a href="#hanGesModal" data-toggle="modal" class="pull-right"><span class="glyphicon glyphicon-info-sign" style="color:white"></span></a>
+					</div>
+					<div class="panel-body">
+						<h5>Technologies:</h5>
+						<ul>
+							<li>Image Processing, Neural Networks</li>
+							<li>MATLAB</li>
+						</ul>
+					</div>
+					<div id="hanGesModal" class="modal fade" role="dialog">
+  						<div class="modal-dialog">
+    					<!-- Modal content-->
+						<div class="modal-content">
+						 	<div class="modal-header">
+						        <button type="button" class="close" data-dismiss="modal">&times;</button>
+						        <h4 class="modal-title">Hand Gesture Recognition</h4>
+						   	</div>
+						   	<div class="modal-body">
+						       <p>This is an implementation of pattern recognition where hand
+								gestures represent certain commands. These gestures are captured using web camera
+								connected to a laptop and neural network and gesture recognition algorithms are used to
+								recognize the gestures and perform functions accordingly.</p>
+								<h5>Technologies:</h5>
+								<ul>
+									<li>Image Processing, Neural Networks</li>
+									<li>MATLAB</li>
+								</ul>
+						   	</div>
+						</div>
+						</div>
+  					</div>
+				</div>
+				
+				<div class="panel panel-default col-sm-4">
+					<div class="panel-heading">Text to Speech Converter
+						<a href="#texSpeModal" data-toggle="modal" class="pull-right"><span class="glyphicon glyphicon-info-sign" style="color:white"></span></a>
+					</div>
+					<div class="panel-body">
+						<h5>Technologies:</h5>
+						<ul>
+							<li>Signal Processing, Neural Networks</li>
+							<li>MATLAB</li>
+						</ul>
+					</div>
+					<div id="texSpeModal" class="modal fade" role="dialog">
+  						<div class="modal-dialog">
+    					<!-- Modal content-->
+						<div class="modal-content">
+						 	<div class="modal-header">
+						        <button type="button" class="close" data-dismiss="modal">&times;</button>
+						        <h4 class="modal-title">Text to Speech Converter</h4>
+						   	</div>
+						   	<div class="modal-body">
+						       <p>This project breaks the input sentences into words and words into
+								phenomes. Hidden Markov Model is used to determine the appropriate phenome sound and
+								duration and using concatenative speech synthesis algorithm speech is produced.</p>
+								<h5>Technologies:</h5>
+								<ul>
+									<li>Signal Processing, Neural Networks</li>
+									<li>MATLAB</li>
+								</ul>
+						   	</div>
+						</div>
+						</div>
+  					</div>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="panel panel-default col-sm-4">
+					<div class="panel-heading">Voice Controlled Robot
+						<a href="#voiConModal" data-toggle="modal" class="pull-right"><span class="glyphicon glyphicon-info-sign" style="color:white"></span></a>
+					</div>
+					<div class="panel-body">
+						<h5>Technologies:</h5>
+						<ul>
+							<li>Signal Processing, Neural Networks</li>
+							<li>MATLAB</li>
+						</ul>
+					</div>
+					<div id="voiConModal" class="modal fade" role="dialog">
+  						<div class="modal-dialog">
+    					<!-- Modal content-->
+						<div class="modal-content">
+						 	<div class="modal-header">
+						        <button type="button" class="close" data-dismiss="modal">&times;</button>
+						        <h4 class="modal-title">Voice Controlled Robot</h4>
+						   	</div>
+						   	<div class="modal-body">
+						       <p>Developed a robot using microcontroller 8051 interfaced with a laptop
+								which had the ability to understand and respond to certain motion commands received through
+								microphone connected to laptop. This project implemented digital signal processing to
+								generate voice features and neural network for training and feature matching.</p>
+								<h5>Technologies:</h5>
+								<ul>
+									<li>Signal Processing, Neural Networks</li>
+									<li>Microcontroller 8051</li>
+									<li>MATLAB</li>
+								</ul>
+						   	</div>
+						</div>
+						</div>
+  					</div>
+				</div>
+		
+				<div class="panel panel-default col-sm-4">
+					<div class="panel-heading">Car Parking Game Interface
+						<a href="#carParModal" data-toggle="modal" class="pull-right"><span class="glyphicon glyphicon-info-sign" style="color:white"></span></a>
+					</div>
+					<div class="panel-body">
+						<h5>Technologies:</h5>
+						<ul>
+							<li>ARM Microcontroller</li>
+							<li>Embedded C</li>
+						</ul>
+					</div>
+					<div id="carParModal" class="modal fade" role="dialog">
+  						<div class="modal-dialog">
+    					<!-- Modal content-->
+						<div class="modal-content">
+						 	<div class="modal-header">
+						        <button type="button" class="close" data-dismiss="modal">&times;</button>
+						        <h4 class="modal-title">Car Parking Game Interface</h4>
+						   	</div>
+						   	<div class="modal-body">
+						       <p>Developed an interface on ARM Microcontroller to control Car Parking Game using infrared sensors.
+								The ARM microcontroller received signal through eye-movement of the user and converted it into the respective command.</p>
+								<h5>Technologies:</h5>
+								<ul>
+									<li>Signal Processing, Neural Networks</li>
+									<li>Microcontroller 8051</li>
+									<li>MATLAB</li>
+								</ul>
+						   	</div>
+						</div>
+						</div>
+  					</div>
+				</div>
+			</div>
+			
+		</div>	
+	</div>
+</div>
+
+<!-- Connect Page -->
+<div class="container-fluid" id="connectPage" style="max-width:50%;">
+	<h1>Connect with me</h1>
+	<div class="row">
+		<div class="col-sm-3" style="text-align:center">
+			<a href="https://www.facebook.com/manpreet.dhanjal.75">
+			<img src="./images/fb.png" alt="Facebook" width="82px" height="73px"/></a>
+		</div>
+		<div class="col-sm-3" style="text-align:center">
+			<a href="https://www.linkedin.com/in/manpreet-dhanjal-7413a465">
+			<img src="./images/in.png" alt="LinkedIn"  width="82px" height="73px"/></a>
+		</div>
+		<div class="col-sm-3" style="text-align:center">
+			<a href="https://www.instagram.com/dhanjal_manpreet">
+			<img src="./images/insta.jpg" alt="Instagram"  width="82px" height="73px"/></a>
+		</div>
+		<div class="col-sm-3" style="text-align:center">
+			<a href="https://github.com/ManpreetDhanjal">
+			<img src="./images/github.png" alt="GitHub"  width="82px" height="73px"/></a>
+		</div>
+	</div>	
+</div>
+
+<!-- Get in touch page -->
+<div class="container-fluid row-shade" id="getInTouchPage">
+	<h1>Get In Touch</h1>
+	<div class="row">
+		<div class="col-sm-6">
+			<p><img src="" alt="logo"/></p>
+			<p><strong>Hyderabad, India</strong></p>
+			<p>If you like my work and are interested in working with me send me an email using the section on the right.</p>
+		</div>
+		<div class="col-sm-6">
+			<form action="getInTouch" method="post">
+				<div class="form-group">
+					<input type="text" id="emailId" class="form-control" placeholder="Email"/>
+				</div>
+				<div class="form-group">
+					<input type="text" id="subject" class="form-control" placeholder="Subject"/>
+				</div>
+				<div class="form-group">
+					<textarea id="message" class="form-control" placeholder="Your Message"></textarea>
+				</div>
+				<button type="submit" class="btn btn-default">Send</button>
+			</form>
+		</div>
+	</div>
+</div>
+
+<footer class="container-fluid nav-shade">
+  	<p align="center"> © Copyright 2017 - Manpreet Dhanjal</p> 
+</footer>
+
+  
+
+</body>
+</html>
